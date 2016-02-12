@@ -6,19 +6,17 @@ This is for setting up a new project using [Vagrant][2] and [Scotch Box][3].
 
 2. Install [Vagrant][2].
 
-3. Run ```vagrant init``` to initialize [Vagrant][2].
+3. Change directory to project location.
 
-4. Change directory to project location.
+4. ```git clone https://github.com/scotch-io/scotch-box <project name>```
 
-5. ```git clone https://github.com/scotch-io/scotch-box <project name>```
+5. ```cd <project name>```
 
-6. ```cd <project name>```
+6. ```vagrant up```
 
-7. ```vagrant up```
+7. Copy project files into ```<project name>/public``` and run any project-specific configuration steps required.
 
-8. Copy project files into ```<project name>/public``` and run any project-specific configuration steps required.
-
-9. Access the project from [http://192.168.33.10](http://192.168.33.10).
+8. Access the project from [http://192.168.33.10](http://192.168.33.10).
 
 ## Optional Configuration
 
