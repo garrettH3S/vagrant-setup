@@ -14,7 +14,9 @@ This is for setting up a new project using [Vagrant][2] and [Scotch Box][3].
 
 6. ```vagrant up```
 
-7. Copy project files into ```<project name>/public``` and run any project-specific configuration steps required.
+7. ```cd <project name>/public```
+
+7. Copy project files into this directory and run any project-specific configuration steps required.
 
 8. Access the project from [http://192.168.33.10](http://192.168.33.10).
 
@@ -29,6 +31,12 @@ If running multiple Vagrant instances, the IP address should be changed.  Edit t
 ```
 
 Change ```192.168.33.10``` to a different IP address.
+
+After modifying the IP address, reload the Vagrant instance with:
+
+```
+vagrant reload
+```
 
 ### Virtual Hosts
 
