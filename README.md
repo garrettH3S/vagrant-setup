@@ -1,10 +1,10 @@
 # Highway Three Solutions - Vagrant Setup
 
-This is for setting up a new project using [Vagrant](2) and [Scotch Box](3).
+This is for setting up a new project using [Vagrant][2] and [Scotch Box][3].
 
-1) Install [VirtualBox](1).
+1) Install [VirtualBox][1].
 
-2) Install [Vagrant](2).
+2) Install [Vagrant][2].
 
 3) Change directory to project location.
 
