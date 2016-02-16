@@ -14,11 +14,11 @@ This is for setting up a new project using [Vagrant][2] and [Scotch Box][3].
 
 6. ```vagrant up```
 
-7. ```cd <project name>/public```
+7. ```cd public```
 
-7. Copy project files into this directory and run any project-specific configuration steps required.
+8. Copy project files into this directory and run any project-specific configuration steps required.
 
-8. Access the project from [http://192.168.33.10](http://192.168.33.10).
+9. Access the project from [http://192.168.33.10](http://192.168.33.10).
 
 ## Optional Configuration
 
