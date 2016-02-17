@@ -16,7 +16,7 @@ This is for setting up a new project using [Vagrant][2] and [Scotch Box][3].
 
 7. ```cd public```
 
-8. Copy project files into this directory and run any project-specific configuration steps required.
+8. Copy project files into this directory and run any project-specific configuration steps required (Note: you'll have to remove the index.php file from the public directory to clone a git repository).
 
 9. Access the project from [http://192.168.33.10](http://192.168.33.10).
 
